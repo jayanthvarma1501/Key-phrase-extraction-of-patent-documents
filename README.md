@@ -30,10 +30,9 @@ $ pip install -r requirements.txt
 </details>
 
 <details open>
-<summary>Inference</summary>
+<summary>Running in Local</summary>
 
-Inference with YOLOv5 and [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36). Models automatically download
-from the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases).
+If you are running the script in local, then replace the database host name to localhost and provide your MySQL userID and password in [main.py](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/blob/main/main.py).
 
 ```python
 import torch
