@@ -3,7 +3,9 @@
 
 ## <div align="center">Description</div>
 
-In the project
+This repository contains source code for parsing and extracting the Key phrases of the in-house collection of patent documents. Firstly, the patents stored in the XML documents are parsed, and the abstract of each patent is extracted. Furthermore, the RAKE NLTK algorithm is used to extract the key phrases from the text and stored them in a MySQL database. Each row consists of a document identifier and the extracted Key phrases of a patent. Lastly, the entire application is wrapped in a docker container.  
+
+
 
 ## <div align="center">Quick Start</div>
 
