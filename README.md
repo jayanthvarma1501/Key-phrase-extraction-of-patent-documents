@@ -36,7 +36,7 @@ If you are running the script in local, then replace the database host name to l
 
 </details>
 
-## <div align="center">Running in Docker</div>
+## <div align="center">Running in Docker Container</div>
 
 1. Install Docker in you local computer.
 
