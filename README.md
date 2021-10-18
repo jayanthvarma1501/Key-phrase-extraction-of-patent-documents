@@ -36,7 +36,7 @@ $ pip install -r requirements.txt
 <details open>
 <summary>Execute</summary>
 
-Replace the database host name to localhost, and provide your MySQL userID and password in [main.py](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/blob/main/main.py).
+Replace the database host name to "localhost", and provide your MySQL userID and password in [main.py](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/blob/main/main.py).
 
 </details>
 
