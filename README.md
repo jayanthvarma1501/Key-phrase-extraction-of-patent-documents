@@ -99,7 +99,7 @@ The Rake-NLTK algorithm used for Key Phrase extraction comes with some drawbacks
 2. In addition, if there are no stopwords in between a long continuous text, then the whole text is treated as a phrase.
 3. Lastly, multi-words with stop words included will be missed. For example, "not trustworthy" phrase will be missed because of "not".
 
-To overcome some of the problems, sophisticated algorithms based on Linguistic Approaches, Graph-based approaches, and Machine Learning approaches can be used. It is mentioned in some sources that "YAKE" algorithms perform better than RAKE nltk. Replacing MySQL database with a cloud database will be more efficient while processing millions of data. 
+To overcome some of the problems, sophisticated algorithms based on Linguistic Approaches, Graph-based approaches, and Machine Learning approaches can be used. It is mentioned in some sources that "YAKE" algorithm perform better than Rake-NLTK. Replacing MySQL database with a cloud database will be more efficient while processing millions of data. 
 
 
 
