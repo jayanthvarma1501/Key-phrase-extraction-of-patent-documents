@@ -36,7 +36,7 @@ Replace the database host name to localhost, and provide your MySQL userID and p
 
 </details>
 
-## <div align="center">Running in Docker Container</div>
+## <div align="center">Running in a Docker Container</div>
 
 1. Install Docker in your local computer.
 
