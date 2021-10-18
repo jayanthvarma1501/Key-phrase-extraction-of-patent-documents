@@ -36,7 +36,9 @@ If you are running the script in local, then replace the database host name to l
 
  </details>
  
-<Running in Docker>
+<details open>
+<summary>Running in Docker</summary> 
+
  
  
 ```python
