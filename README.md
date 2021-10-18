@@ -38,7 +38,10 @@ If you are running the script in local, then replace the database host name to l
  
 <details open>
 <summary>Running in Docker</summary> 
-
+1. Install Docker in you local computer.
+2. Pull the MySQL image from Dockerhub.
+3. Create volumes for mysql and mysql config 
+   
  
  
 ```python
