@@ -18,13 +18,12 @@ Download the Dataset Here. [Patents Dataset](https://databricksexternal.blob.cor
 <summary>Install</summary>
 
 [**Python>=3.6.0**](https://www.python.org/) is required with all
-[requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed including
-[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/):
+[requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed.
 <!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
 
 ```bash
-$ git clone https://github.com/ultralytics/yolov5
-$ cd yolov5
+$ git clone https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents.git
+$ cd Key-phrase-extraction-of-patent-documents
 $ pip install -r requirements.txt
 ```
 
