@@ -51,7 +51,7 @@ $ docker volume create mysql
 $ docker volume create mysql_config
 ```
 
-3. Create a network that can be used to connection MySQL to Python application
+3. Create a network that can be used to connect MySQL to Python application
 
 ```bash
 $ docker network create mysqlnet
