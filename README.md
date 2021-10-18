@@ -38,7 +38,7 @@ If you are running the script in local, then replace the database host name to l
 
 ## <div align="center">Running in Docker Container</div>
 
-1. Install Docker in you local computer.
+1. Install Docker in your local computer.
 
 2. Create volumes for data and configuration of mysql 
 
@@ -53,7 +53,7 @@ $ docker volume create mysql_config
 $ docker network create mysqlnet
 ```
 
-4. Pull the MySQL image from Dockerhub, and provide a name and password for DB.
+4. Pull the MySQL image from Dockerhub, and provide a name and password for your database.
 
 ```bash
 $ docker run --rm -d -v mysql:/var/lib/mysql \
@@ -62,9 +62,26 @@ $ docker run --rm -d -v mysql:/var/lib/mysql \
 >>   --name patentsdb \
 >>   -e MYSQL_ROOT_PASSWORD=1234 \
 >>   mysql
-``` 
-   
-  
+```
+
+5. Connect to the running MySQL database inside the container and make sure it is running.
+ 
+```bash
+$ docker exec -ti patentsdb mysql -u root -p
+```
+
+6. Build a docker image for you python application.
+
+```bash
+$ docker build -t patent .
+```
+
+7. Running the docker container and make a connection to the MySQL database.
+
+```bash
+$ docker run --network mysqlnet --name rest-server patent
+```
+
 $ git clone https://github.com/ultralytics/yolov5
 $ cd yolov5
 $ pip install -r requirements.txt
