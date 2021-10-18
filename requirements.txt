@@ -1,0 +1,7 @@
+mysql-connector-python==8.0.26
+nltk==3.6.5
+rake-nltk==1.0.6
+
+
+
+
