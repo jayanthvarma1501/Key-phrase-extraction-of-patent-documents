@@ -18,7 +18,7 @@ Download the Dataset Here. [Patents Dataset](https://databricksexternal.blob.cor
 <summary>Install</summary>
 
 [**Python>=3.6.0**](https://www.python.org/) is required with all
-[requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed.
+[requirements.txt](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/requirements.txt) installed.
 <!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
 
 ```bash
