@@ -87,7 +87,8 @@ $ docker build -t patent .
 $ docker run --network mysqlnet --name rest-server patent
 ```
 
-After this step all the keyphrases along with document identifiers will the stored in the MySQL database of your container.
+In this step, main.py gets executed, and all the key phrases along with document identifiers will be stored in your container's MySQL database. 
+
 </details>
 
 ## <div align="center">Further Improvements</div>
