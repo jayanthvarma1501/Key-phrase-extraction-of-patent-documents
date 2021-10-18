@@ -8,7 +8,7 @@ This repository contains source code for parsing and extracting the Key phrases 
 
 ## <div align="center">Dataset</div>
  
-Dowload the Dataset [Here]
+See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment. 
 
 
 ## <div align="center">Quick Start</div>
