@@ -66,7 +66,7 @@ def main():
         
         #Key phrase extraction using Rake object
         r.extract_keywords_from_text(total_string)
-        key_phrases_list = r.get_ranked_phrases()[0:10] #Extracting 10 Key phrases which is user-defined
+        key_phrases_list = r.get_ranked_phrases()[0:10] #Extracting top 10 Key phrases which is user-defined
         key_phrases_string = ", ".join(key_phrases_list)
     # =============================================================================
     #     print('Key phrases')
