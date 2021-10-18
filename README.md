@@ -84,5 +84,16 @@ $ docker run --network mysqlnet --name rest-server patent
 ```
 
 After this step all the keyphrases along with document identifiers will the stored in the MySQL database of your container.
-
 </details>
+
+## <div align="center">Further Improvements</div>
+
+The Rake-NLTK algorithm used for Key Phrase extraction comes with some drawbacks. Firstly, RAKE is domain-independent, and the algorithm works purely on statistical measures. So there is a possibility that some essential Key phrases of a particular domain might not get a higher score than they deserved. Semantic information will not be considered for the ranking. In addition, if there are no stopwords in between a long continuous text, then the whole text is treated as a phrase. Lastly, multi-words with stop words included will be missed. For example, "not trustworthy" phrase will be missed because of "not". To overcome some of the problems, sophisticated algorithms based on Linguistic Approaches, Graph-based approaches, and Machine Learning approaches can be used. It is mentioned in some sources that "YAKE" algorithms perform better than RAKE nltk. 
+
+Replacing MySQL database with a cloud database will be more efficient while processing millions of data. 
+
+
+
+
+
+
