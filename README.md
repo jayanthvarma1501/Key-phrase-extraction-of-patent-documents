@@ -64,13 +64,14 @@ $ docker run --rm -d -v mysql:/var/lib/mysql \
 >>   mysql
 ```
 
-5. Connect to the running MySQL database inside the container and make sure it is running.
+5. Connect to the running MySQL database inside the container and make sure it is running. Type your password created in the previous step.
  
 ```bash
 $ docker exec -ti patentsdb mysql -u root -p
+Enter password:
 ```
 
-6. Build a docker image for you python application.
+6. Build a docker image for your python application.
 
 ```bash
 $ docker build -t patent .
