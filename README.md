@@ -68,7 +68,7 @@ $ docker run --rm -d -v mysql:/var/lib/mysql \
 >>   mysql
 ```
 
-5. Connect to the running MySQL database inside the container and make sure it is running. Type your password created in the previous step.
+5. Connect to the MySQL database inside the container and make sure it is running. Type your password created in the previous step.
  
 ```bash
 $ docker exec -ti patentsdb mysql -u root -p
