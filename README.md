@@ -39,9 +39,14 @@ If you are running the script in local, then replace the database host name to l
 ## <div align="center">Running in Docker</div>
 
 1. Install Docker in you local computer.
-
-3. Pull the MySQL image from Dockerhub.
-4. Create volumes for mysql and mysql config 
+```bash
+$ python train.py --data coco.yaml --cfg yolov5s.yaml --weights '' --batch-size 64
+                                         yolov5m                                40
+                                         yolov5l                                24
+                                         yolov5x                                16
+```
+2. Pull the MySQL image from Dockerhub.
+3. Create volumes for mysql and mysql config 
    
   ```bash
 $ git clone https://github.com/ultralytics/yolov5
