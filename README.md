@@ -11,7 +11,7 @@ This repository contains source code for parsing and extracting the Key phrases 
 Download the Dataset Here. [Patents Dataset](https://databricksexternal.blob.core.windows.net/hiring/patents.zip?sp=r&st=2021-10-07T23:09:03Z&se=2021-10-31T08:09:03Z&spr=https&sv=2020-08-04&sr=b&sig=uR36HP3kCEDY9aPc0mvZFzLnblodA9adxQRTYTc6O6M%3D). 
 
 
-## <div align="center">Quick Start</div>
+## <div align="center">Running in Local computer</div>
 
 
 <details open>
@@ -30,9 +30,9 @@ $ pip install -r requirements.txt
 </details>
 
 <details open>
-<summary>Running in Local</summary>
+<summary>Execute</summary>
 
-If you are running the script in local, then replace the database host name to localhost, and provide your MySQL userID and password in [main.py](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/blob/main/main.py).
+Replace the database host name to localhost, and provide your MySQL userID and password in [main.py](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/blob/main/main.py).
 
 </details>
 
@@ -76,31 +76,12 @@ $ docker exec -ti patentsdb mysql -u root -p
 $ docker build -t patent .
 ```
 
-7. Running the docker container and make a connection to the MySQL database.
+7. Run the docker container and make a connection to the MySQL database.
 
 ```bash
 $ docker run --network mysqlnet --name rest-server patent
 ```
 
-$ git clone https://github.com/ultralytics/yolov5
-$ cd yolov5
-$ pip install -r requirements.txt
-```
- 
-```python
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
-
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-```
+After this step all the keyphrases along with document identifiers will the stored in the MySQL database of your container.
 
 </details>
