@@ -45,13 +45,13 @@ If you are running the script in local, then replace the database host name to l
 ```bash
 $ docker volume create mysql
 $ docker volume create mysql_config
-```bash
+```
 
 3. Create a network that can be used to connection MySQL to Python application
 
 ```bash
 $ docker network create mysqlnet
-```bash 
+```
 
 4. Pull the MySQL image from Dockerhub, and provide a name and password for DB.
 
@@ -62,7 +62,7 @@ $ docker run --rm -d -v mysql:/var/lib/mysql \
 >>   --name patentsdb \
 >>   -e MYSQL_ROOT_PASSWORD=1234 \
 >>   mysql
-```bash 
+``` 
    
   
 $ git clone https://github.com/ultralytics/yolov5
