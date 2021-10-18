@@ -44,7 +44,7 @@ Replace the database host name to "localhost", and provide your MySQL userID and
 
 1. Install Docker in your local computer.
 
-2. Create volumes for data and configuration of MySql 
+2. Create volumes for data and configuration of MySQL
 
 ```bash
 $ docker volume create mysql
