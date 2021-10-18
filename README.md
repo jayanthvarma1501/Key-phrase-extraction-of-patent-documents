@@ -34,15 +34,20 @@ $ pip install -r requirements.txt
 
 If you are running the script in local, then replace the database host name to localhost, and provide your MySQL userID and password in [main.py](https://github.com/jayanthvarma1501/Key-phrase-extraction-of-patent-documents/blob/main/main.py).
 
- </details>
- 
-<details open>
-<summary>Running in Docker</summary> 
+</details>
+
+## <div align="center">Running in Docker</div>
+
 1. Install Docker in you local computer.
-2. Pull the MySQL image from Dockerhub.
-3. Create volumes for mysql and mysql config 
+
+3. Pull the MySQL image from Dockerhub.
+4. Create volumes for mysql and mysql config 
    
- 
+  ```bash
+$ git clone https://github.com/ultralytics/yolov5
+$ cd yolov5
+$ pip install -r requirements.txt
+```
  
 ```python
 import torch
